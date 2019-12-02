@@ -1,5 +1,5 @@
 # Requirements
-# pytho,3.7, pip3
+# python3.7, pip3
 # REST API With Flask & SQL Alchemy
 
 > Users API using Python Flask, SQL Alchemy and Marshmallow
