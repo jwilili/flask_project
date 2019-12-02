@@ -41,3 +41,4 @@ python app.py
     "lastname":"son",
     "birthdate":"2000-12-12 09:26:03.478039"
 }
+# for testing please use rest client (i used postman)
