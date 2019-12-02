@@ -78,11 +78,12 @@ def update_user(id):
   firstname = request.json['firstname']
   lastname = request.json['lastname']
   birthdate = request.json['birthdate']
+  birthdate_date = datetime.strptime(birthdate, '%Y-%m-%d %H:%M:%S.%f')
 
   user.email = email
   user.firstname = firstname
   user.lastname = lastname
-  user.birthdate = birthdate
+  user.birthdate = birthdate_date
 
   new_db.session.commit()
 
